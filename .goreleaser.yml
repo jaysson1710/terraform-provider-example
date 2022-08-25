@@ -18,7 +18,6 @@ builds:
   goos:
     - windows
     - linux
-    - darwin
   goarch:
     - amd64
     - '386'
