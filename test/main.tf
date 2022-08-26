@@ -12,3 +12,7 @@ resource "example_server" "my-server-name" {
 	env = "1"
 	resource="env"
 }
+
+output "name" {
+  value = example_server.my-server-name.name
+}
